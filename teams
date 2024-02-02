@@ -1,6 +1,6 @@
 _G.Teams = true
 
-if _G.Teams = Pirates then
+if _G.Teams = "Pirates" then
     local AutoJoinTeam = "Pirates"
 
 local function setPlayerTeam(teamName)
@@ -37,7 +37,8 @@ local function setPlayerTeam(teamName)
 end
 
 setPlayerTeam(AutoJoinTeam)
-else _G.Teams = Marines then 
+
+else _G.Teams = "Marines" then 
     local AutoJoinTeam = "Marines"
 
 local function setPlayerTeam(teamName)
